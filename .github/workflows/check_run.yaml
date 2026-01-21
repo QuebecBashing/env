@@ -1,0 +1,8 @@
+name: Check Run
+on:
+  check_run:
+jobs:
+  first:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: raven-actions/debug@v1.2.0
