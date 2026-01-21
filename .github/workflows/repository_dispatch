@@ -1,0 +1,8 @@
+name: Repository Dispatch
+on:
+  repository_dispatch:
+jobs:
+  first:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: raven-actions/debug@v1.2.0
