@@ -1,0 +1,20 @@
+{
+  "name": "playwright-check-suites",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.54",
+    "@types/node": "^22.1.0",
+    "checkly": "^6.9.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "jiti": "^2.4.2",
+    "typescript": "^5.8.3"
+  }
+}
