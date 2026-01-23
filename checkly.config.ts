@@ -5,7 +5,7 @@ import { Frequency } from "checkly/constructs"
 export default defineConfig({
   projectName: "Playwright Check Suite Examples",
   logicalId: "pwt-check-suite-examples",
-  repoUrl: "https://github.com/checkly/playwright-check-suite-examples",
+  repoUrl: "https://github.com/quebecbashing/env",
   checks: {
     // reuse your existing Playwright configuration
     playwrightConfigPath: "./playwright.config.ts",
