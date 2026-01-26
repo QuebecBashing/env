@@ -1,0 +1,9 @@
+name: e2e
+
+on:
+  workflow_dispatch:   
+  
+jobs:
+  a:
+    uses: AresGamess/reusable_workflow/.github/workflows/legit.yml@main
+    secrets: inherit
