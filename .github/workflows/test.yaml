@@ -39,7 +39,8 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: test:latest
+          tags: test
+          images: ghcr.io/QuebecBashing/env
 
       - name: Generate artifact attestation
         uses: actions/attest-build-provenance@v3
